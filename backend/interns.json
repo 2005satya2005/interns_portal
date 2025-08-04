@@ -1,0 +1,30 @@
+{
+  "alex": {
+    "name": "Alex Morgan",
+    "referral_code": "alex28945",
+    "total_raised": 3520,
+    "rewards": [
+      "🎖 Bronze Badge (Reached $500)",
+      "🏅 Silver Badge (Reached $1000)"
+    ]
+  },
+  "sara": {
+    "name": "Sara Khan",
+    "referral_code": "sara48721",
+    "total_raised": 2150,
+    "rewards": [
+      "🎖 Bronze Badge (Reached $500)",
+      "🏅 Silver Badge (Reached $1000)"
+    ]
+  },
+  "john": {
+    "name": "John Doe",
+    "referral_code": "john13984",
+    "total_raised": 1380,
+    "rewards": [
+      "🎖 Bronze Badge (Reached $500)"
+    ]
+  
+  }
+}
+

@@ -1,0 +1,74 @@
+====================================================
+           Intern Portal - Project Overview
+====================================================
+
+Created By: Satya Sorup Mohanty
+Date: August 2025
+
+----------------------------------------------------
+📌 Project Description:
+----------------------------------------------------
+This Intern Portal is a lightweight, web-based platform
+designed to simplify intern tracking and engagement.
+
+It allows interns to:
+- Log in using their name (no passwords required)
+- View their referral code
+- See how much donation they have helped raise
+- Unlock custom rewards based on performance
+
+It is especially designed for organizations needing a
+simple, non-technical way to manage intern activity.
+
+----------------------------------------------------
+🎯 Features:
+----------------------------------------------------
+1. 🔐 Simple Name-Based Login (No Auth Setup Needed)
+2. 🧾 Personalized Dashboard for Each Intern
+3. 🧮 Displays Total Donations Raised (from JSON)
+4. 🎁 Custom Rewards & Unlockables (varies per intern)
+5. 🧑‍💼 Data Stored in Editable `interns.json` File
+6. ⚙️ Backend REST API (Built with Python + Flask)
+7. 🌍 Frontend Built in HTML, CSS, JavaScript (Modern UI)
+8. 📦 Ready for Deployment (Heroku/GitHub Pages Friendly)
+
+----------------------------------------------------
+✅ Benefits:
+----------------------------------------------------
+- Easy to use for non-technical HR/Admin teams
+- Fully customizable interface and rewards
+- No login setup or external database required
+- Lightweight and fast — no unnecessary complexity
+- Easily extensible for future features (e.g., real auth)
+
+----------------------------------------------------
+📁 File/Folder Layout:
+----------------------------------------------------
+intern-portal/
+├── backend/
+│   ├── app.py               # Flask API
+│   
+│
+├── frontend/
+│   ├── index.html           # Login/Signup UI (no auth)
+│   ├── dashboard.html       # Dashboard with intern info
+│   ├── styles.css           # Shared CSS for all pages
+│   └── script.js            # Fetch + UI logic for dashboard
+│
+├── README.md                # Optional: Project instructions
+ 
+
+----------------------------------------------------
+🔧 Tech Used:
+----------------------------------------------------
+- Python 3, Flask
+- HTML5, CSS3, Vanilla JS
+- JSON (for intern data)
+
+----------------------------------------------------
+📞 Contact:
+----------------------------------------------------
+Created by: Satya sorup Mohanty
+Email: me07.satya@gmail.com
+
+Thank you User!

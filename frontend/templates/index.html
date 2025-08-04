@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Intern Portal Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <div class="login-container">
+    <h2>Intern Portal</h2>
+    <p>Welcome Intern!</p>
+
+    <input type="text" id="nameInput" placeholder="Enter your username" />
+    <button onclick="goToDashboard()">Login</button>
+
+    <p id="errorMsg" style="color: red; display: none;">Wrong Credentials. Please try again.</p>
+  </div>
+
+  <script>
+    function goToDashboard() {
+      const name = document.getElementById('nameInput').value.trim();
+      if (!name) return;
+
+      fetch(`/api/intern?name=${encodeURIComponent(name)}`)
+        .then(res => {
+          if (res.status === 200) {
+            localStorage.setItem('internName', name);
+            return res.json().then(() => {
+              window.location.href = '/dashboard';
+            });
+          } else {
+            document.getElementById('errorMsg').style.display = 'block';
+          }
+        })
+        .catch(() => {
+          document.getElementById('errorMsg').textContent = 'Server error. Please try again.';
+          document.getElementById('errorMsg').style.display = 'block';
+        });
+    }
+  </script>
+</body>
+</html>
