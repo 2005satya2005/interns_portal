@@ -11,9 +11,10 @@ A simple web-based portal that displays intern information. The app starts with 
     pip install flask pandas
     ```
 
+
 📁 File/Folder Layout:
 ----------------------------------------------------
-interns_portal/
+interns_portal-master/
 │
 ├── devsatya.txt
 ├── README.md
@@ -36,7 +37,7 @@ interns_portal/
 
 ### 🔹 Step 1: Download
 
-1. Download the folder `intern_portal`.
+1. Download the code/Folder ---- https://github.com/2005satya2005/interns_portal.git.
 
 2. Follow the step 2
 
